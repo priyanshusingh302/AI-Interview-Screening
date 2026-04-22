@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-textMain antialiased overflow-x-hidden;
+  }
+}
+
+.glass-panel {
+  @apply backdrop-blur-md border border-border rounded-2xl shadow-sm;
+}
+
+.primary-gradient {
+  @apply bg-gradient-to-r from-blue-500 to-indigo-600;
+}
